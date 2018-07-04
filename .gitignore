@@ -1,0 +1,14 @@
+*.pyc
+*~
+
+__pycache__
+myvenv
+test/
+train/
+SVHN_train.pickle
+SVHN_test.pickle
+test.tar.gz
+train.tar.gz
+.ipynb_checkpoints/
+/static
+.DS_Store
