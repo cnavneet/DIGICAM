@@ -5,7 +5,7 @@ In this project I build an android application that will recognize numbers using
 Here you will find a report, a number of jupyter notebooks for data processing and analysis as well as the code to build the classifier and android app.
 
 # Report
-- [DIGICAM-report.pdf](DIGICAM-report.pdf)
+- [DIGICAM%20report.pdf](DIGICAM-report.pdf)
 
 # Notebooks
 
