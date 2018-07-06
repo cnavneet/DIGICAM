@@ -7,6 +7,15 @@ Here you will find a report, a number of jupyter notebooks for data processing a
 # Report
 - [DIGICAM-report.pdf](DIGICAM%20report.pdf)
 
+# Metrics
+In order to find the classifier that predicts the best, we will need to define a way to compare them. For this we  will use the mean accuracy of digits predicted correctly. 
+ 
+For example if the classifier predicts 123 and the correct label is 120, the accuracy for this would be ⅔, as the  digits 1 and 2 are correct and in the correct location, but the 0 is incorrect.  
+ 
+Another example predicts 12, and the correct label is 312, then the accuracy will be 0/3 as no digits are correct  in the correct place. 
+ 
+The final score will be the accuracy averaged across the number of items in the batch
+
 # Notebooks
 
 - [01 - Explore and preprocess images.ipynb](01 - Explore and preprocess images.ipynb)
