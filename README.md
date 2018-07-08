@@ -1,4 +1,4 @@
-# DIGICAM - Deep Learning Project
+# DIGICAM - Udacity Deep Learning Project(Live Camera App)
 
 In this project I build an android application that will recognize numbers using the cameras image stream from the device.
 
@@ -15,6 +15,9 @@ For example if the classifier predicts 123 and the correct label is 120, the acc
 Another example predicts 12, and the correct label is 312, then the accuracy will be 0/3 as no digits are correct  in the correct place. 
  
 The final score will be the accuracy averaged across the number of items in the batch
+
+#Deciding the architecture
+The architure has been decided by training the synthetic dataset (NOTMNIST) at https://github.com/cnavneet/notMNIST
 
 # Notebooks
 
